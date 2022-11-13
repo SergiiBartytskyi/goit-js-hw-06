@@ -20,3 +20,21 @@ const imageElement = images
 	.join("");
 console.log(imageElement);
 galleryList.insertAdjacentHTML("afterbegin", imageElement);
+
+// const makeImageCart = ({ url, alt }) => {
+// 	const itemEl = document.createElement("li");
+// 	itemEl.classList.add("gallery__item");
+
+// 	const imgEl = document.createElement("img");
+// 	imgEl.classList.add("gallery__img");
+// 	imgEl.src = url;
+// 	imgEl.alt = alt;
+
+// 	itemEl.append(imgEl);
+// 	return itemEl;
+// };
+
+// const res = images.map(makeImageCart);
+
+// galleryList.append(...res);
+// console.log(galleryList);
